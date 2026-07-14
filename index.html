@@ -18,20 +18,46 @@
     <header class="header">
         <div class="container">
             <nav class="navbar">
+
                 <a href="#" class="logo">
-                    <img src="assets/images/logo-AM.webp" alt="Atap Modern">
+                    <img
+                        src="assets/images/logo-AM-white.webp"
+                        data-light="assets/images/logo-AM.webp"
+                        data-dark="assets/images/logo-AM-white.webp"
+                        alt="Modern Roof Logo">
                 </a>
+
                 <ul class="nav-menu">
+
+                    <li class="mobile-menu-header">
+                        <img src="assets/images/logo-AM.webp" alt="Modern Roof Logo">
+                    </li>
+
                     <li><a href="#about">About</a></li>
                     <li><a href="#benefits">Benefits</a></li>
                     <li><a href="#contact">Contact</a></li>
+
+                    <li class="mobile-menu-button">
+                        <a href="#contact" class="btn btn-primary">Konsultasi Gratis</a>
+                    </li>
+
                 </ul>
+
                 <a href="#contact" class="btn btn-primary">
                     Konsultasi Gratis
                 </a>
+
+                <button class="menu-toggle" aria-label="Open navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
             </nav>
         </div>
     </header>
+
+    <div class="menu-overlay"></div>
 
     <main>
         <section id="hero" class="hero">
