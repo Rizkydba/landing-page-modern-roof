@@ -11,6 +11,7 @@
 
 html{
     scroll-behavior:smooth;
+    scroll-padding-top:90px;
 }
 
 body{
@@ -36,6 +37,9 @@ input,
 textarea,
 select{
     font:inherit;
+    resize:vertical;
+    border:none;
+    outline:none;
 }
 
 :root{
@@ -127,6 +131,10 @@ p{
     font-size:1rem;
 }
 
+svg{
+    display:block;
+}
+
 .btn{
     display:inline-flex;
     align-items:center;
@@ -146,7 +154,7 @@ p{
 
 .btn-primary:hover{
     transform:translateY(-2px);
-    filter:brightness(1.05);
+    filter:brightness(.95);
 }
 
 /* ===================================
