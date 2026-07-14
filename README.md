@@ -7,6 +7,7 @@ A responsive landing page developed for a modern roofing company. The project fo
 🚀 https://test-app.dgrex.io/
 
 
+
 ---
 
 ## Features
@@ -149,4 +150,4 @@ Open `index.html` directly in your browser, or run the project using a local dev
 
 ## Author
 
-Modern Roof
+Rizkydba
